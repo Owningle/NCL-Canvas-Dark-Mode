@@ -1,0 +1,494 @@
+:root{
+  --dark: #080808 !important;
+  --dark2: #111111 !important;
+  --dark3: #161616 !important;
+  --dark4: #252525 !important;
+
+  --primary1: var(--dark) !important;
+
+  --secondary1: #1884dc !important;
+
+  --textcolour: #e9e9e9 !important;
+  --textcolourdarker: #cfcfcf !important;
+
+  --tint: #000000de !important;
+
+
+  --ic-brand-primary-darkened-5: var(--dark) !important;
+  --ic-brand-primary-darkened-10: var(--dark2) !important;
+  --ic-brand-primary-darkened-15: var(--dark3) !important;
+  --ic-brand-primary-lightened-5: var(--dark3) !important;
+  --ic-brand-primary-lightened-10: var(--dark2) !important;
+  --ic-brand-primary-lightened-15: var(--dark) !important;
+  --ic-brand-button--primary-bgd-darkened-5: var(--dark2) !important;
+  --ic-brand-button--primary-bgd-darkened-15: var(--dark3) !important;
+  --ic-brand-button--secondary-bgd-darkened-5: var(--secondary1) !important;
+  --ic-brand-button--secondary-bgd-darkened-15: var(--secondary1) !important;
+  --ic-brand-font-color-dark-lightened-15: var(--textcolour) !important;
+  --ic-brand-font-color-dark-lightened-30: var(--textcolourdarker) !important;
+  --ic-link-color-darkened-10: var(--dark2) !important;
+  --ic-link-color-lightened-10: var(--dark2) !important;
+  --ic-brand-primary: var(--primary1) !important;
+  --ic-brand-font-color-dark: var(--textcolourdarker) !important;
+  --ic-link-color: var(--secondary1) !important;
+  --ic-brand-button--primary-bgd: var(--ic-brand-primary) !important;
+  --ic-brand-button--primary-text: var(--textcolour) !important;
+  --ic-brand-button--secondary-bgd: var(--textcolourdarker) !important;
+  --ic-brand-button--secondary-text: var(--textcolour) !important;
+  --ic-brand-global-nav-bgd: var(--primary1) !important;
+  --ic-brand-global-nav-ic-icon-svg-fill: var(--textcolour) !important;
+  --ic-brand-global-nav-ic-icon-svg-fill--active: var(--textcolour) !important;
+  --ic-brand-global-nav-menu-item__text-color: var(--textcolour) !important;
+  --ic-brand-global-nav-menu-item__text-color--active: var(--textcolour) !important;
+  --ic-brand-global-nav-avatar-border: var(--textcolour) !important;
+  --ic-brand-global-nav-menu-item__badge-bgd: var(--ic-brand-primary) !important;
+  --ic-brand-global-nav-menu-item__badge-text: var(--textcolour) !important;
+  --ic-brand-global-nav-logo-bgd: var(--primary1) !important;
+  --ic-brand-watermark-opacity: 1.0 !important;
+  --ic-brand-msapplication-tile-color: var(--ic-brand-primary) !important;
+  --ic-brand-Login-body-bgd-color: var(--dark) !important;
+  --ic-brand-Login-body-bgd-shadow-color: var(--textcolourdarker) !important;
+  --ic-brand-Login-Content-label-text-color: var(--textcolour) !important;
+  --ic-brand-Login-Content-password-text-color: var(--textcolour) !important;
+  --ic-brand-Login-footer-link-color: var(--textcolour) !important;
+  --ic-brand-Login-footer-link-color-hover: var(--textcolour) !important;
+  --ic-brand-Login-instructure-logo: var(--textcolour) !important;
+
+  --fbyHH-color: var(--secondary1) !important;
+  --feqxT-background: var(--secondary1) !important;
+  --fhWLw-labelColor: var(--textcolour) !important;
+  --fhWLw-checkedBackground: var(--secondary1) !important;
+}
+
+body {
+  /*color:  var(--textcolour) !important;*/
+  background-color: var(--dark2) !important;
+  color: var(--textcolour) !important;
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+  background: var(--dark2) !important;
+}
+
+.ic-app-header__menu-list-item {
+  background: var(--dark) !important;
+}
+
+.ic-Dashboard-header__layout {
+  background: var(--dark2) !important;
+  border-bottom-color:var(--secondary1) !important;
+}
+
+.ic-DashboardCard__header_content {
+  background: var(--dark3) !important;
+}
+
+.ic-DashboardCard {
+  background: var(--dark3) !important;
+}
+
+.avatar {
+  background-color: var(--dark3) !important;
+}
+
+.navigation-tray-container {
+	background: var(--dark2) !important;
+}
+
+.btn, .Button, .ui-button {
+  background: var(--dark3) !important;
+  color: var(--textcolour) !important;
+  border-color: var(--dark4) !important;
+}
+
+.Day-styles__root {
+  background: var(--dark2) !important;
+  color: var(--textcolour) !important;
+}
+
+.header-bar {
+  background: var(--dark2) !important;
+  border-bottom-color:var(--secondary1) !important;
+}
+
+.fc {
+  background: var(--dark4) !important;
+}
+
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-popover {
+  border-color: var(--secondary1) !important;
+}
+
+.fc-toolbar {
+  color: var(--textcolour) !important;
+}
+
+.fc-today {
+  background: var(--dark4) !important;
+}
+
+.fc-event {
+  background: var(--dark3) !important;
+}
+
+.fc-day-number {
+  color: var(--textcolour) !important;
+}
+
+.conversations .panel, .ac-input-box, .ac-input-box .ac-input, .ac-result-container {
+  background: var(--dark2) !important;
+  color: var(--textcolour) !important;
+  border-color: var(--secondary1) !important;
+}
+
+.ac-result.context {
+  color: var(--textcolour) !important;
+}
+
+.message-list .date {
+  color: var(--textcolour) !important;
+}
+
+.message-list .subject, .message-detail.span8 .user-info .context, .message-detail.conversations__message-detail .user-info .context {
+  color: var(--textcolourdarker) !important;
+}
+
+.message-list .summary {
+  color: var(--textcolour) !important;
+}
+
+.PlannerHeader-styles__root.PlannerHeader {
+  background: var(--dark2) !important;
+}
+
+.ic-Super-toggle--on-off .ic-Super-toggle__input:checked ~ .ic-Super-toggle__container .ic-Super-toggle__switch {
+  background-color: var(--secondary1) !important;
+}
+
+.context_module {
+  background: var(--dark2) !important;
+}
+
+.item-group-condensed .ig-header {
+  background: var(--dark3) !important;
+}
+
+.ig-header .name {
+  color: var(--textcolour) !important;
+  text-shadow: none !important;
+}
+
+.item-group-container {
+  background-color: var(--dark2) !important;
+}
+
+.context_module_item.context_module_item_hover {
+  background: var(--dark4) !important;
+  color: var(--textcolour) !important;
+}
+
+.message-list .messages>li {
+  border-color: var(--secondary1) !important;
+}
+
+body.responsive_awareness .message-list-scroller, .message-detail.span8 .message-header, .message-detail.conversations__message-detail .message-header, .message-detail.span8 .message-content>li, .message-detail.conversations__message-detail .message-content>li {
+  border-color: var(--secondary1) !important;
+}
+
+#context_modules {
+  background: var(--dark2) !important;
+}
+
+#minical, #minical .fc-toolbar {
+  border-color: var(--secondary1) !important;
+}
+
+.item-group-condensed .ig-row {
+  background: var(--dark4) !important;
+}
+
+.module-sequence-footer .module-sequence-footer-content {
+  background: var(--dark2) !important;
+}
+
+select {
+  background-color: var(--dark3) !important;
+  border-color: var(--secondary1) !important;
+}
+
+td {
+  background: var(--dark2) !important;
+}
+
+input {
+  background-color: var(--dark3) !important;
+}
+
+input[placeholder="Search for files"] {
+  background-color: var(--dark4) !important;
+}
+
+tbody {
+  background: var(--dark2) !important;
+}
+
+span[aria-label="User profile picture"] {
+  background-color: var(--dark2) !important;
+}
+
+h1 {
+  color: var(--textcolour) !important;
+}
+
+h2 {
+  color: var(--textcolourdarker) !important;
+}
+
+ul {
+  background-color: var(--dark3) !important;
+}
+
+li:hover {
+  color: var(--textcolour) !important;
+}
+
+li:hover a {
+  color: var(--textcolour) !important;
+}
+
+li {
+  background-color: var(--dark2) !important;
+}
+
+a.notifications.active {
+  color: var(--textcolour) !important;
+}
+
+#section-tabs li {
+  background-color: var(--dark2) !important;
+}
+
+.list-view a.active {
+  color: var(--textcolour) !important;
+}
+
+.ef-main, .ef-name-col__text {
+  color: var(--textcolour) !important;
+}
+
+.treeLabel.expanded {
+  color: var(--textcolour) !important;
+}
+
+.treeLabel.expanded:hover {
+  background-color: var(--dark2) !important;
+}
+
+.treeContents li ul li a {
+  color: var(--textcolour) !important;
+}
+
+.treeContents li ul li:hover {
+  background-color: var(--dark2) !important;
+}
+
+.treeContents li:hover {
+  background-color: var(--dark2) !important;
+}
+
+.subtrees {
+  background-color: var(--dark2) !important;
+}
+
+.ef-item-row:hover {
+  background-color: var(--dark3) !important;
+}
+
+.unpinned-discussions-v2__wrapper, .closed-for-comments-discussions-v2__wrapper {
+  background-color: var(--dark2) !important;
+  border-color: var(--dark2) !important;
+}
+
+.ic-discussion-row, .discussions-v2__container-image {
+  background-color: var(--dark2) !important;
+}
+
+#quiz_student_details, #questions.assessing, .question {
+  background-color: var(--dark2) !important;
+}
+
+.question .header {
+  background-color: var(--dark3) !important;
+}
+
+.tox:not(.tox-tinymce-inline) .tox-editor-header {
+  background-color: var(--dark2) !important;
+  color: var(--textcolour) !important;
+}
+
+.tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary, .tox .tox-menubar, .tox .tox-mbtn, .tox .tox-tbtn, .tox .tox-tbtn svg {
+  background-color: var(--dark2) !important;
+  color: var(--textcolour) !important;
+  fill: var(--textcolour) !important;
+}
+
+.canvas-rce__skins--root {
+  background-color: var(--dark2) !important;
+  color: var(--textcolour) !important;
+}
+
+.ic-notification__content {
+  background-color: var(--dark3) !important;
+  color: var(--textcolour) !important;
+}
+
+.ic-notification__icon {
+  background-color: var(--secondary1) !important;
+}
+
+.ic-app-nav-toggle-and-crumbs {
+  border-bottom-color: var(--secondary1) !important;
+}
+
+.ic-app-footer {
+  border-color: var(--secondary1) !important;
+}
+
+.mini-cal-header {
+  border-color: var(--secondary1) !important;
+}
+
+.headerBar {
+  background-color: var(--dark2) !important;
+}
+
+.discussion_entry  {
+  background-color: var(--dark2) !important;
+}
+
+.showMore {
+  background-color: var(--dark3) !important;
+}
+
+.ColorPicker__Container, .sJGfW_bGBk {
+  background-color: var(--dark2) !important;
+}
+
+i {
+  color: var(--secondary1) !important;
+}
+
+
+h2, #right-side h2, #right-side .h2 {
+  border-bottom-color: var(--secondary1) !important;
+}
+
+li[role="treeitem"], li[role="treeitem"] a {
+  color: var(--textcolour) !important;
+  background-color: var(--dark2) !important;
+}
+
+ul[role="tree"] {
+  background-color: var(--dark2) !important;
+}
+
+html {
+  color: var(--textcolour) !important;
+}
+
+table {
+  border-color: var(--secondary1) !important;
+}
+
+#immersive_reader_mount_point > div > button > span > span > span:nth-child(1) > span > svg > g > g > g > path:nth-child(1) {
+  fill: var(--textcolour) !important;
+}
+
+#immersive_reader_mount_point > div > button > span > span > span:nth-child(1) > span > svg > g > g > g > path:nth-child(2), #immersive_reader_mount_point > div > button > span > span > span:nth-child(1) > span > svg > g > g > g > path:nth-child(3), #immersive_reader_mount_point > div > button > span > span > span:nth-child(1) > span > svg > g > g > g > path:nth-child(4) {
+  fill: var(--secondary1) !important;
+}
+
+#section-tabs li:hover a {
+  color: var(--textcolour) !important;
+}
+
+#planner-todosidebar-item-list {
+  background-color: var(--dark2) !important;
+}
+
+#undated-events {
+  background-color: var(--dark4) !important;
+}
+
+#context-list-holder {
+  background-color: var(--dark3) !important;
+}
+
+.fOyUs_bGBk {
+  background-color: var(--dark2) !important;
+  color: var(--textcolour) !important;
+}
+
+.fOyUs_bGBk:hover {
+  background-color: var(--dark2) !important;
+}
+
+.dxCCp_bGBk div a {
+  color: var(--secondary1) !important;
+}
+
+.cjUyb_bGBk.cjUyb_bLsb, input.cjUyb_bGBk[type].cjUyb_bLsb {
+  color: var(--textcolour) !important;
+}
+
+.fQfxa_caGd {
+  background: var(--dark2) !important;
+  color: var(--textcolour) !important;
+  border-color: var(--dark3) !important;
+}
+
+.cjUyb_bGBk {
+  color: var(--secondary1) !important;
+}
+
+.esvoZ_drOs {
+  color: var(--secondary1) !important;
+}
+
+.dNoYT_bGBk, .cDMBL_bGBk {
+  background-color: var(--dark2) !important;
+}
+
+.fwfoD_bGBk {
+  background-color: var(--dark3) !important;
+  color: var(--textcolour) !important;
+}
+
+.fvvQs_bGBk {
+  background: var(--tint) !important;
+}
+
+.bdYPe_ddES[aria-selected]::after {
+  background-color: var(--secondary1) !important;
+}
+
+.esvoZ_bGBk {
+  fill: var(--secondary1) !important;
+}
+
+.esvoZ_bGBk[name="IconCalendarMonth"], .esvoZ_bGBk[name="IconCalendarDay"], .esvoZ_bGBk[name="IconAlerts"], .esvoZ_bGBk[name="IconMuted"] {
+  fill: var(--textcolour) !important;
+}
+
+.cvphu_dnnz {
+  background-color: var(--secondary1) !important;
+  border-color: var(--secondary1) !important;
+}
+
+.cvphu_pypk {
+  border-color: var(--secondary1) !important;
+}
+
+.eIQkd_bGBk {
+  border-bottom-color: var(--secondary1) !important;
+}
