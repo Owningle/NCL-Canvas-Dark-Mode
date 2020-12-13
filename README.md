@@ -6,7 +6,7 @@ make my own.
 
 ## Installing
 
-This is available to install from the from the [Chrome Web Store](https://github.com/Owningle).
+This is available to install from the from the [Chrome Web Store](https://chrome.google.com/webstore/detail/canvas-ncl-dark-mode/neodbaonlenfpcjkljkilpnhhjcgoffm).
 
 ## Usage
 
