@@ -14,7 +14,6 @@
   },
   "permissions": [
       "https://ncl.instructure.com/*",
-      "tabs",
       "storage"
   ],
   "content_scripts": [
